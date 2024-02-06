@@ -46,7 +46,7 @@ function App() {
         // console.log(user);
         setUsers(user.data.result);
       }catch(err){
-        
+
       }
       
     }
@@ -100,6 +100,7 @@ function App() {
 <Route></Route>
 </Routes>
 
+<p>welcome</p>
 
 
 
