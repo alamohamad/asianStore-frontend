@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import '../styles/styles.css';
 
 export default function Navbar() {
@@ -30,7 +30,10 @@ export default function Navbar() {
     };
   }, []); // Empty dependency array ensures that the effect runs once when the component mounts
 
+  const location = useLocation();
 
+  // Check if the current path is not '/signup'
+  if (location.pathname !== '/signup') {
   return (
     <div>
       <nav className={`nav1 navbar ${isNavHidden ? 'hide-nav' : 'show-nav'}`}>
@@ -75,4 +78,6 @@ export default function Navbar() {
       </nav>
     </div>
   );
+}  return null;
+
 }

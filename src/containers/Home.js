@@ -8,6 +8,7 @@ import SecoendSection from './SecoendSection'
 import ThirdSection from './ThirdSection'
 import FourthSection from './FourthSection'
 import Footer from './Footer'
+import Navbar from '../components/Navbar'
 
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
          
 
        <div className='container-fluid containers ' >
-      
+      {/* <Navbar/> */}
+
 
         
           
@@ -78,7 +80,7 @@ export default function Home() {
             </div>
             
         </div> */}
-
+  {/* <Footer/> */}
      </div>
       
        

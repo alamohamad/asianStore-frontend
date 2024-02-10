@@ -24,7 +24,7 @@ export default function FourthSection() {
         <div className='row fourthSection'>
             <div className=' col-4 sec4Left'>
                 <p className='title1'>Best Seller Product</p>
-                <p className='title4'>Order now for prompt delivery to your doorstep. Your journey to elegance begins here!</p>
+                <p className='title4'>Order now for prompt delivery to your doorstep.</p>
                 <button className='col-12 col-md-6 '>see more</button>           
 
 

@@ -19,11 +19,8 @@ export default function ThirdSection() {
             <div className='col-6 sec3p2' >
             <div className='description3'>
                <h2 className='title1 mb-2'>Best Fashion Since 2014</h2>
-               <p className='aboutUs '>Asia Store has been at the forefront of the fashion scene, pushing boundaries and setting trends. Our commitment to style, quality, and innovation has made us a beacon in the ever-evolving world of fashion.
-
-                Whether you're a trendsetter, a sustainability advocate, or someone seeking inclusive fashion, Asia Store welcomes you.
-
-                Visit us today and be a part of the fashion evolution at Palestine. Let Asia Store be your canvas.</p>
+               <p className='aboutUs'>Asian Store has been at the forefront of the fashion scene, pushing boundaries and setting trends.
+                Visit us today and be a part of the fashion evolution at Palestine.</p>
 
                </div>
             </div>
