@@ -12,11 +12,16 @@ export default function FirstSection() {
             <p className='title2'>Explore our carefully curated collections that reflect the fashion trends.</p>
             <div className='container-fluid'>
             <div className='row '>
-
+            
               <NavLink to={'/signup'} className={'bg-black  col-7 white-font navLink'}>
                 Join Now
               </NavLink>
-              <button className='bg-black white-font  col-4'>Login</button>
+              
+              <NavLink to={'/login'} className='bg-black white-font col-4 navLink'>
+              Login
+              </NavLink>
+              
+             
             </div>
           </div>
 
