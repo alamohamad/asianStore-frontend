@@ -5,6 +5,7 @@ export default function FourthSection() {
 
     const[products,setProducts]=useState([])
   const [currentPairIndex, setCurrentPairIndex] = useState(0);
+  
 
   const handleImageChange = (pairIndex) => {
     setCurrentPairIndex(pairIndex);

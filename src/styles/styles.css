@@ -2,8 +2,6 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
 .containers{
     margin-top:85px;
 }
@@ -26,7 +24,7 @@ body{
 }
 
 .signupPage .navLink{
-  color: #737373;
+  color: #6c757d;
 }
 
 .signupPage .navLink:hover{
@@ -256,7 +254,9 @@ body{
 
 }
 
-
+.uppercase{
+  text-transform: uppercase;
+}
 .hide-nav {
     transform: translateY(-150px);
     transition: transform 1s ease-in-out;
@@ -388,23 +388,23 @@ margin-left: 1px;
 .navLink:hover{text-decoration: none;
 color: #ffffff;}
 
-.newCollCard{
+.categoryCard{
     transition: 0.4s; 
     cursor: pointer;
 
 }
  
-.newCollCard img{
+.categoryCard img{
     height: 400px;
     max-height: 400px;
     
     }
 
-    .newCollCard:hover {
+    .categoryCard:hover {
         filter: brightness(0.8); 
     }
 
-    .newCollCard button{
+    .categoryCard button{
         position: absolute;
         border: none;
         width: 95%;
@@ -414,7 +414,7 @@ color: #ffffff;}
     @media screen and (max-width:600px) {
      
     
-        .newCollCard img{
+        .categoryCard img{
             height: 145px;
             max-height: 145px;
             
@@ -422,7 +422,7 @@ color: #ffffff;}
             
             }
 
-            .newCollCard button{
+            .categoryCard button{
                 height: 15%;
 
             }
@@ -430,7 +430,7 @@ color: #ffffff;}
       }
 
       @media (min-width:601px) and (max-width:1024px) {
-        .newCollCard img{
+        .categoryCard img{
             height: 240px;
             max-height: 240px;
 
@@ -439,7 +439,7 @@ color: #ffffff;}
       }
 
 
-.newCollCard{
+.categoryCard{
    
     padding: 0;
     position: relative;
@@ -585,14 +585,14 @@ color: #ffffff;}
 
 
 
-.bestSellDesCard{
+.productCardInfo{
     margin:10px 0 10px 5px ;
     text-align: left;
     position: relative;
 
 }
 
-.bestSellDesCard button{
+.productCard button{
     position: absolute;
     bottom: 10px;
     border: 1px solid #dee2e6;
@@ -601,11 +601,13 @@ color: #ffffff;}
     left: 10px;
 }
 
-
+.custom-class{
+  background-color: #000000;
+}
 
 
 @media  (max-width:600px){
-    .bestSellDesCard{
+    .productCardInfo{
         font-size: 12px;
         display:flex; 
         position: relative;
@@ -613,10 +615,14 @@ color: #ffffff;}
         
     }
 
-    .bestSellDesCard button{
+    .productCardInfo button{
         bottom: 1px;
     }
 
+    .notification{
+      font-size: 12px;
+
+    }
 
    
  
@@ -624,15 +630,19 @@ color: #ffffff;}
 }
 
 @media  (min-width:601px) and (max-width:1024px){
-    .bestSellDesCard{
+    .productCardInfo{
         font-size: small;
         height: 50px;
         display: flex;
     }
 
-    .bestSellDesCard  span{
+    .productCardInfo  span{
         font-size: 10px;
         
+    }
+    .notification{
+      font-size: 10px;
+
     }
 
 }
@@ -765,14 +775,19 @@ color: #ffffff;}
     background-color: #e9ecef;
 
     margin-top: 80px;
-    height: 1000px;
+    min-height: 1000px;
   }
 
 
   
- 
+
  
 
+   .pagination a{
+    color: #000000;
+
+     }
+ 
 
  
   
@@ -788,6 +803,10 @@ color: #ffffff;}
   .formCateg{
     border-radius: 20px;
   }
+
+  .orderForm{
+    margin-top: 100px;
+  }
   .form-container h5 {
     margin-bottom: 20px;
   }
@@ -802,8 +821,7 @@ color: #ffffff;}
     margin-bottom: 5px;
   }
   
-  .form-group input[type="text"],
-  .form-group input[type="file"] {
+  .form-group input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
@@ -813,6 +831,7 @@ color: #ffffff;}
 
   .dashboardTable{
     background-color: #e9ecef;
+    border-radius: 15px;
   }
 
 
@@ -820,6 +839,8 @@ color: #ffffff;}
   background-color: #000000 ;
   color: #ffffff;
   margin-bottom: 3px;
+  border-radius: 10px;
+
 }
 
   
@@ -894,7 +915,7 @@ color: #ffffff;}
 .cartPageContainer{
   margin-top: 150px;
   background-color: #e9ecef;
-  height: 1000px;
+  min-height: 1000px;
 }
 
 .outButton{

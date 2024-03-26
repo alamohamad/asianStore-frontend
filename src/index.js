@@ -2,19 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { Provider } from 'react-redux';
-import store from './redux/store';
+import { EmployeeContextProvider } from './components/EmployeeContext';
+import { UserContextProvider } from './components/UserProvider';
+import { ProductProvider } from './components/ProductProvider';
+import { CategoriesProvider } from './components/CategoriesProvider';
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
-    <React.StrictMode>
+    <CategoriesProvider>
+    <EmployeeContextProvider>
+              <UserContextProvider>
+<ProductProvider>
+
     <App/>
-  </React.StrictMode>
-  </Provider>
+    </ProductProvider>
+    </UserContextProvider>
+
+    </EmployeeContextProvider>
+    </CategoriesProvider>
+    
   
   
 );

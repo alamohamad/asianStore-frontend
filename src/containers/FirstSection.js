@@ -1,4 +1,3 @@
-// FirstSection.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
@@ -7,7 +6,7 @@ export default function FirstSection() {
     <div className='container containers firstSection '>
       <div className='row'>
         <div className='sec1Left col-6'>
-          <div className='description '>
+          <div className='description'>
             <p className='title1'>Find the Best Fashion Style for you</p>
             <p className='title2'>Explore our carefully curated collections that reflect the fashion trends.</p>
             <div className='container-fluid'>
