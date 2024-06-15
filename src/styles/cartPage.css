@@ -1,0 +1,89 @@
+
+.cartPageContainer{
+  margin-top: 150px;
+  background-color: #e9ecef;
+  min-height: 1000px;
+}
+
+.outButton{
+  cursor: pointer;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius:10px;
+}
+
+.cart-table th, .cart-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+
+
+.cart-table img {
+  max-width: 80px;
+}
+
+.quantity-container {
+  display: flex;
+  justify-content: space-between; 
+  width: 80px;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: 15px; 
+}
+
+
+
+.quantity-btn {
+  width: 30px; 
+  height: 30px; 
+  background-color: #ffffff; 
+  border-radius: 15px; 
+  cursor: pointer;
+}
+
+.quantity-btn:first-child {
+  border-radius: 20px 0 0 20px;
+  border-right: 0.5px solid #ced4da; 
+
+}
+
+.quantity-btn:last-child {
+  border-radius: 0 20px 20px 0;
+  border-left: 0.5px solid #ced4da; 
+
+}
+
+.quantity-btn:hover {
+  background-color: #e9ecef; }
+
+.trashIcon{
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+.cartNav{
+  width: 45px;
+  height: 42px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 3px;
+  
+}
+
+
+.cartNav:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+

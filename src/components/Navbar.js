@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { Modal, Button } from 'react-bootstrap'; 
-import '../styles/styles.css';
 import { userContext } from './UserProvider';
 
 

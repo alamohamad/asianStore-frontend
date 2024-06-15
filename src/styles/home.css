@@ -1,0 +1,291 @@
+/* section one css */
+
+
+.firstSection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sec1Right img{
+    border-radius: 0 0 0 20%;
+    height: 90%;
+}
+
+
+
+ .description{
+    position: relative;
+    left:100px;
+    width: 50%;
+    text-align: left;
+
+}
+
+.title1{
+    text-transform: capitalize;
+    font-Size: 45px;
+    font-weight: bold;
+
+}
+
+.title2{
+    font-size: 15px;
+
+}
+
+.sec1Left button{
+    border: none;
+    margin-left: 3px;   
+}
+
+.sec1Left button:hover{
+    background-color: #6c757d !important;
+    
+}
+
+.sec1Left .navLink:hover {
+    background-color: #6c757d !important;
+}
+
+
+
+@media (max-width:600px) {
+     .description{
+        width: 100%;
+        left: 15px;
+    }
+
+    .title1{
+        font-Size: 19px;
+
+    }
+    .title2{
+        font-size: 14px;
+        margin-top: 1px;
+        
+    }
+
+    .sec1Left button, .firstSection .navLink{
+        bottom:-30px;
+        font-size: 12px;
+        height: 24px;
+    }
+   
+
+}
+
+@media (min-width:601px) and (max-width:1024px) {
+    .description{
+        width: 90%;
+        left: 15px;
+
+    
+    }
+    .title1{
+        font-Size: 20px;
+        width: 70%;
+
+
+    }
+    .title2{
+        font-size: 15px;
+        
+    }
+
+}
+
+
+@media (min-width:1025px) and (max-width:1440px) {
+     .description{
+        width: 60%;
+    
+    }
+    .title1{
+        font-Size: 40px;
+
+
+    }
+
+    
+
+}
+
+
+.navLink{
+text-decoration: none;
+text-align: center;
+margin-left: 1px;
+}
+.navLink:hover{text-decoration: none;
+color: #ffffff;}
+
+.categoryCard{
+    transition: 0.4s; 
+    cursor: pointer;
+
+}
+ 
+.categoryCard img{
+    height: 400px;
+    max-height: 400px;
+    
+    }
+
+    .categoryCard:hover {
+        filter: brightness(0.8); 
+    }
+
+    .categoryCard button{
+        position: absolute;
+        border: none;
+        width: 95%;
+        height: 10%;
+        bottom: 20px;
+    }
+    @media screen and (max-width:600px) {
+     
+    
+        .categoryCard img{
+            height: 145px;
+            max-height: 145px;
+            
+            
+            
+            }
+
+            .categoryCard button{
+                height: 15%;
+
+            }
+        
+      }
+
+      @media (min-width:601px) and (max-width:1024px) {
+        .categoryCard img{
+            height: 240px;
+            max-height: 240px;
+
+            }
+
+      }
+
+
+.categoryCard{
+   
+    padding: 0;
+    position: relative;
+    
+
+}
+
+
+/* third section css */
+
+.thirdSection img{
+    border-radius: 20% 0 0 0;
+    height: 90%;
+  
+
+}
+
+.sec3p2{
+    text-align: left;
+    position: absolute;
+    right: 20px;
+    position: relative;
+
+}
+
+
+
+
+
+.aboutUs{
+    font-size: 20px;
+
+}
+
+@media (max-width:600px) {
+    .sec3p2{
+        right: 10px;
+    }
+
+   .description3 .title1{
+       font-Size: 16px;
+
+   }
+   .aboutUs{
+       font-size: 14px;
+
+       
+   }
+
+}
+
+@media (min-width:601px) and (max-width:1024px) {
+    .sec3p2{
+        right: 10px;
+    }
+
+   .description3 .title1{
+       font-Size: 18px;
+       width: 100%;
+
+
+   }
+   .aboutUs{
+       font-size: 12px;
+       
+   }
+
+}
+
+
+@media (min-width:1025px) and (max-width:2000px) {
+
+    .description3 .title1{
+       font-Size: 40px;
+       width: 60%;
+       
+
+
+   }
+}
+
+.aboutUs{
+    margin-top: 30px ;
+}
+
+/* Fourth section */
+
+.sec4Left{
+    padding-left:10%;
+    text-align: left;
+  
+}
+
+ .sec4Left .title1 {
+   
+    width:50%;
+
+}
+
+.sec4Left .title4{
+   
+    width:70%;
+
+}
+
+.sec4Left button{
+    border: 1px solid #6c757d;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-weight: bold;
+   
+}
+
+
+
+
+
+
+

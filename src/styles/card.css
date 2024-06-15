@@ -1,0 +1,72 @@
+.categoriesCard{
+    margin-bottom: 5px;
+    padding-top: 15px;
+   
+}
+
+
+
+
+
+
+.categoriesCard img{
+    border: #ced4da 1px solid;
+    max-height: 140px;
+    border-radius: 0 0 0 20%;
+    
+
+
+}
+
+
+
+
+
+
+.productCardInfo{
+    margin:10px 0 10px 5px ;
+    text-align: left;
+    position: relative;
+
+}
+
+.productCard button{
+    position: absolute;
+    bottom: 10px;
+    border: 1px solid #dee2e6;
+    background-color: transparent;
+    height: 23px;
+    left: 10px;
+}
+
+
+@media (max-width:600px) {
+
+
+    .productCardInfo{
+        font-size: 12px;
+        display:flex; 
+        position: relative;
+        height: 40px;
+        
+    }
+    
+    .productCardInfo button{
+        bottom: 1px;
+    }
+
+}
+
+@media (min-width:601px) and (max-width:1024px) {
+
+    .productCardInfo{
+        font-size: small;
+        height: 50px;
+        display: flex;
+    }
+    
+    .productCardInfo  span{
+        font-size: 10px;
+        
+    }
+}

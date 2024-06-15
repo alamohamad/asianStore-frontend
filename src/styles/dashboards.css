@@ -1,0 +1,69 @@
+
+.employeeDashboard{
+    padding-bottom: 50px;
+}
+
+.employeeDashboard header{
+    background-color: #000000;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+  .employeeSections{
+    background-color: #e9ecef;
+
+    margin-top: 80px;
+    min-height: 1000px;
+  }
+
+
+  
+  .dashboardTable{
+    background-color: #e9ecef;
+    border-radius: 15px;
+  }
+
+
+.tableHeader{
+  background-color: #000000 ;
+  color: #ffffff;
+  margin-bottom: 3px;
+  border-radius: 10px;
+
+}
+
+  
+
+  
+.dashboardTable img{
+   
+    height: 70px; 
+}
+
+.dashboardTable{
+  background-color: #f8f9fa;
+  
+}
+  
+.dashboardCard-container {
+  width: 100%;
+  max-width: 280px; 
+  margin-bottom: 20px;
+}
+
+.dashboardCard {
+  background-color: #ffffff;
+  border-radius: 0 0 17px 0;
+  height: 140px;
+  padding: 20px;
+  padding-top: 50px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboardCard p {
+  margin: 0;
+}
+

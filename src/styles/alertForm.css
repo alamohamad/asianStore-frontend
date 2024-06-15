@@ -1,0 +1,35 @@
+.form-container {
+  
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .formCateg{
+    border-radius: 20px;
+  }
+
+  .orderForm{
+    margin-top: 100px;
+  }
+  .form-container h5 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    
+   display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

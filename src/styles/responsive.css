@@ -1,0 +1,203 @@
+
+@media screen and (max-width: 1024px) {
+    .navSection2 {
+        height: 100px;
+        
+        
+    }
+
+
+    .part2{
+        width: 50%;
+    }
+
+    .nav1 a{
+        font-size: smaller;
+    }
+
+    .navSection1{
+        padding: 0;
+        padding-top: 3px;
+    }
+  
+    .navLabel{
+        padding: 1px;
+    }
+
+
+    .part3 label{
+        height: 100px;
+        width:70px;
+    }
+  
+
+    .part3{
+        width: 30%;
+        
+    }
+
+
+    .iconNav{
+      
+        right:90px;
+       
+     }
+
+     .sec4Left .title1{
+        font-size: 14px;
+   
+        width:95%;
+    
+    }
+    .sec4Left .title4{
+        width: 100%;
+        font-size: 12px;
+        margin-top: -10px;
+        
+    }
+    .sec4Left button{
+        font-size: 12px;
+
+    }
+
+}
+
+
+@media (max-width:600px) {
+    
+    .description{
+       width: 100%;
+       left: 15px;
+   }
+
+   .title1{
+       font-Size: 19px;
+
+   }
+   .title2{
+       font-size: 14px;
+       margin-top: 1px;
+       
+   }
+
+   .sec1Left button, .firstSection .navLink{
+       bottom:-30px;
+       font-size: 12px;
+       height: 24px;
+   }
+  
+
+   .categoryCard img{
+    height: 145px;
+    max-height: 145px;
+    
+    
+    
+    }
+
+    .categoryCard button{
+        height: 15%;
+
+    }
+
+
+    .sec3p2{
+        right: 10px;
+    }
+
+   .description3 .title1{
+       font-Size: 16px;
+
+   }
+   .aboutUs{
+       font-size: 14px;
+
+       
+   }
+
+  
+
+.notification{
+  font-size: 12px;
+
+}
+
+
+}
+
+
+@media (min-width:601px) and (max-width:1024px) {
+   .description{
+       width: 90%;
+       left: 15px;
+
+   
+   }
+   .title1{
+       font-Size: 20px;
+       width: 70%;
+
+
+   }
+   .title2{
+       font-size: 15px;
+       
+   }
+
+   .categoryCard img{
+    height: 240px;
+    max-height: 240px;
+
+    }
+
+    .sec3p2{
+        right: 10px;
+    }
+
+   .description3 .title1{
+       font-Size: 18px;
+       width: 100%;
+
+
+   }
+   .aboutUs{
+       font-size: 12px;
+       
+   }
+
+
+
+.notification{
+  font-size: 10px;
+
+}
+
+
+}
+
+
+@media (min-width:1025px) and (max-width:1440px) {
+    .description{
+       width: 60%;
+   
+   }
+   .title1{
+       font-Size: 40px;
+
+
+   }
+
+
+   .description3 .title1{
+    font-Size: 40px;
+    width: 60%;
+    
+
+
+}
+   
+
+}
+
+
+

@@ -1,0 +1,51 @@
+
+
+/* admin dashboard sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 230px;
+    width: 230px;
+    height: 100%;
+    position: fixed;
+    top: 55px;
+    left: -400px;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    transition: left 0.5s ease-in-out;
+    z-index: 1;
+  }
+  
+  .sidebar.visible {
+    left: 0;
+  }
+  
+  .sideBarContent {
+    width: 100%;
+    position: absolute;
+    list-style-type: none;
+    top: 70px;
+    padding: 0;
+
+
+  }
+  
+  .employeeDashboard li {
+    cursor: pointer;
+  }
+  
+  .sideBarContent li {
+    width: 100%;
+    margin-top: 15px;
+    display: block;
+    cursor: pointer;
+ 
+    
+  }
+  
+  .sideBarContent li:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); 
+  }
